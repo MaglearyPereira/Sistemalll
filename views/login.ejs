@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<style>
+
+
+
+
+</style>
+<body> 
+  <div class="container"> 
+    <span class="emoticon"></span>
+    <div class="container-itens"> 
+      <label class="textInputs" style="font-size: 33px; color:#3498db; font-weight: 700"> Iniciar</label> 
+      <form class="formCenter" action="/login" method="POST"> <!-- Agregar el formulario -->
+        <div class="content-inputs"> 
+          <label class="textInputs" for="username">Usuario</label> 
+          <input  type="text" id="username" name="usuario" required> <!-- Agregar name -->
+          
+          <label class="textInputs" for="password">Contraseña</label> 
+          <input type="password" id="password" name="password" required> <!-- Asegúrate de que el name esté aquí -->
+        </div> 
+        <button class="btn-Login " type="submit">Entrar</button> <!-- Cambiar type a submit -->
+      </form>
+    </div> 
+  </div>   
+</body>
+
+</html>
